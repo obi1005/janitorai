@@ -1,14 +1,31 @@
 <!-- hahahahha -->
 <style>
+    :root {
+        --primary: #e3ae9a;
+        --secondary: #de7f70;
+    }
+
+    /* logo area before */
+    .glow-logo:before {
+        display: none;
+    }
+
+    /* logo area after */
+    .glow-logo:after {
+        display: none;
+    }
+
+    /* JanitorAI */
     .css-1qj3ulc {
         color: white;
     }
 
-
+    /* beta */
     .css-bda9ez {
-        color: #e3ae9a;
+        color: var(--primary);
     }
 
+    /* 頭貼 */
     .css-18bnokj {
         width: 320px;
         height: 320px;
@@ -22,49 +39,14 @@
         mask-repeat: no-repeat;
     }
 
+    /* 頭貼佈局 */
     .css-1uodvt1 {
         flex-direction: column;
     }
 
+    /* 頭貼area寬度 */
     .css-1xdsfqv {
         min-width: 350px;
-    }
-
-    .css-1ciz3n {
-        text-align: center;
-    }
-
-
-    .css-70qvj9 {
-        justify-content: center;
-    }
-
-    .glow-logo:before {
-        display: none;
-    }
-
-    .glow-logo:after {
-        display: none;
-    }
-
-    .css-1yhasuw:before,
-    .css-1yhasuw:after {
-        display: none;
-    }
-
-    .css-1yhasuw {
-        color: white;
-    }
-
-    .css-1yhasuw:hover {
-        color: #d77e70;
-    }
-
-    .css-xl71ch>svg {
-        color: #d77e70 !important;
-    }
-
-    .css-1xdsfqv {
         background: rgba(0, 0, 0, .5);
     }
 
@@ -72,31 +54,71 @@
         background: none !important;
     }
 
+    /* 頭貼area文字對齊 */
+    .css-1ciz3n {
+        text-align: center;
+    }
+
+
+    /* 頭貼area文字對齊 */
+    .css-70qvj9 {
+        justify-content: center;
+    }
+
+    /* create a character */
+    .css-1yhasuw {
+        color: white;
+    }
+
+    /* create a character before */
+    .css-1yhasuw:before,
+    /* create a character after */
+    .css-1yhasuw:after {
+        display: none;
+    }
+
+    /* create a character hover */
+    .css-1yhasuw:hover {
+        color: #d77e70;
+    }
+
+    /* icon ???? */
+    .css-xl71ch>svg {
+        color: #d77e70 !important;
+    }
+
+
+    /* follow text */
     .css-1vakbk4 span {
         color: white;
     }
 
+    /* follow border */
     .css-1vakbk4 button {
-        background: linear-gradient(to right, #e3ae9a, #de7f70, #e3ae9a, #e3ae9a, #de7f70, #e3ae9a);
+        background: linear-gradient(to right, var(--primary), var(--secondary), var(--primary), var(--primary), var(--secondary), var(--primary));
     }
 
+    /* follow area */
     .css-y9k5u7 {
         justify-content: center;
     }
 
+    /* character card */
     .css-1sxhvxh {
         background: rgba(0, 0, 0, .5);
     }
 
+    /* character bg cover */
     .css-1sxhvxh>*:not(:last-child) {
         display: none;
     }
 
+    /* character title */
     .css-pz44gm {
         color: #ebd2b3;
     }
 
-    // 123
+    /* character user name */
     .css-1m151rf {
         color: #dda661;
     }
